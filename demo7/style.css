@@ -1,0 +1,37 @@
+#star{
+    width: 0px;
+    height: 0px;
+    border-bottom: 70px solid #f00;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    margin: 50px auto;
+    transform: rotate(35deg)
+}
+
+#star::before{
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-bottom: 80px solid #f00;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    transform: rotate(-35deg);
+    top: -45px;
+    left:-60px;
+
+}
+
+#star::after{
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-bottom: 70px solid #f00;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+   position: absolute;
+    transform: rotate(-70deg);
+    top:0px;
+    left: -100px;
+
+}

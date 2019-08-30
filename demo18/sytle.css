@@ -1,0 +1,13 @@
+.floor{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    transition: all 2s .2s ease-out;
+  
+    cursor: pointer;
+}
+
+.floor:hover{
+    width: 300px;
+    background-color: red;
+}

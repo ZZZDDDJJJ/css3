@@ -1,0 +1,41 @@
+.main{
+    width: 260px;
+    height: 270px;
+    margin: 100px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+
+.m_title{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 10px;
+
+}
+
+.m_content{
+    color: #11ccaa;
+    padding: 0px 10px;
+}
+
+
+.m_img{
+    text-align: right;
+    position: relative;
+
+}
+.m_img img{
+   position: absolute;
+   width: 180px;
+   top: 0;
+   right: 0;
+   transition: all .5s;
+}
+
+.main:hover img{
+
+    right: 15px;
+ 
+}

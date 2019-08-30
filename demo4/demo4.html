@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>伪元素</title>
+    <style>
+    .demo{
+        border: 1px solid #ccc;
+        width: 300px;
+        margin:50px auto;
+        padding: 10px;
+    }
+    .demo::first-letter{
+        font-size: 40px;
+        font-weight: bold;
+        float: left;
+    }
+
+    .demo::first-line{
+        color: #f00;
+    }
+    .demo1{
+        width: 300px;
+        border:1px solid #ccc;
+        margin: 10px auto;
+        padding: 10px;
+        text-align: center;
+
+    }
+
+    .demo1::before{
+        content: '';
+        display: block;
+        background-image: url(../image/j20.jpg);
+        background-size: 100px 100px;
+        width: 300px;
+        height: 200px;
+        
+    }
+    .demo1::after{
+        content: '';
+        display: block;
+        background-image: url(../image/j20.jpg);
+        background-size: 100px 100px;
+        width: 300px;
+        height: 200px;
+        
+    }
+    </style>
+</head>
+<div class="demo">
+        歼-20（英文：Chengdu J-20，代号：威龙，北约代号：Fire Fang，译文：火焰獠牙）是中航工业成都飞机工业集团公司研制的一款具备高隐身性、高态势感知、高机动性等能力的隐形第五代制空战斗机。歼-20采用了单座双发、全动双垂尾、DSI鼓包进气道、上反鸭翼带尖拱边条的鸭式气动布局。头部、机身呈菱形，垂直尾翼向外倾斜，起落架舱门为锯齿边设计，机身以高亮银灰色涂装（原型机为深绿墨色）。侧弹舱采用创新结构，可将导弹发射挂架预先封闭于弹仓外侧，同时配备新型的PL-15和PL-21空空导弹。
+</div>
+<div class="demo1">
+    玩转css3特性
+</div>
+</body>
+</html>

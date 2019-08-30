@@ -1,0 +1,63 @@
+#square{
+    width: 50px;
+    height: 50px;
+    border-top: 50px solid #f00;
+    border-left: 50px solid #0f0;
+    border-right: 50px solid #00f;
+    border-bottom: 50px solid #ff0;
+}
+#noneborder{
+    margin: 50px auto;
+    width: 50px;
+    height: 0px;
+    border-top: 50px solid #f00;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    position: relative;
+ 
+}
+
+#noneborder::after{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-bottom: 35px solid #f00;
+    border-left: 43px solid transparent;
+    border-right: 43px solid transparent;
+    top: -85px;
+    left: -18px;
+}
+
+#six{
+    width: 100px;
+    height: 55px;
+    background: #f00;
+    margin: 100px auto;
+    position: relative;
+}
+#six::before{
+    content: '';    
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-bottom: 25px solid #f00;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    top: -25px;
+
+
+}
+#six::after{
+    content: '';    
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-bottom: 25px solid #f00;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    top: 54px;
+    transform: rotate(180deg)
+
+
+}

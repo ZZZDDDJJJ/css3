@@ -1,0 +1,26 @@
+
+body{
+    background-color: #ccc;
+}
+
+.floor{
+    width: 400px;
+    height: 400px;
+    padding: 10px   10px 20px 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px #aaa;
+
+    
+
+}
+
+.roate-left{
+    transform: rotate(7deg);
+    float: left;
+}
+
+.roate-right{
+    transform: rotate(-9deg);
+    float: left;
+}
